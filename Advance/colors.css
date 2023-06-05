@@ -1,0 +1,25 @@
+/* The background color */
+body{
+    background-color: palegoldenrod;
+    background: #6633997f;
+}
+
+/* fontcolor */
+body{
+    color: white;
+}
+
+p{
+    color: black;
+}
+
+section li{
+    color: #333;
+}
+
+h2{
+    color: rgb(hwb(0 8% 47% / 0.51), rgb(35, 111, 35), #00ffb3);
+}
+h1{
+    color: hsl(138, 99%, 28%);
+}

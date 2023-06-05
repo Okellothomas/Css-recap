@@ -33,3 +33,7 @@ p, h1, h2, body{
     background-color: white;
     color: black;
 }
+
+article p{
+    color: rgb(11, 227, 155);
+}

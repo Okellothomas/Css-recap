@@ -1,0 +1,35 @@
+/* The universal selector */
+*{
+    background-color: rgb(226, 202, 202);
+    font-family: monospace;
+}
+
+/* element selector */
+p{
+    color: green;
+    font-size: 14px;
+}
+
+body{
+    border: 2px solid green;
+    background-color: gray;
+}
+
+/* class selector */
+
+.select{
+    color: red;
+}
+
+/* id selector */
+
+#idselector{
+    color: rgb(204, 143, 143);
+}
+
+/* group selector */
+
+p, h1, h2, body{
+    background-color: white;
+    color: black;
+}

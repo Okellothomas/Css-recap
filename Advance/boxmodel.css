@@ -1,0 +1,35 @@
+/* Removing the default setting on box model */
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+section{
+    /* margin: 3px 3px 3px 9px; */
+    padding: 1.5rem 1.5rem;
+    border: 2px dashed red;
+    margin: 1rem 1.5rem;
+    outline: 1px solid yellow;
+    outline-offset: -0.4rem;
+}
+
+h1{
+    padding-left: 1rem;
+    padding-right: 2rem;
+    padding-top: 1rem;
+    padding-bottom: 2rem;
+    max-width: 30%;
+    border: 3px outset green;
+    outline: 0.3rem dashed red;
+    outline-offset: -1.4rem;
+    margin: 2rem 2rem;
+}
+#circle{
+    text-align: center;
+    align-items: center;
+    width: 300px;
+    margin: 3rem auto;
+    height: 300px;
+    border-radius: 50%;
+}

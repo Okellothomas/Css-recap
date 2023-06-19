@@ -1,0 +1,53 @@
+body{
+    padding: 6%;
+    font-size: 1.4rem;
+    color: purple;
+}
+
+input, button{
+    font-size: inherit;
+    color: inherit;
+}
+
+h1{
+    text-shadow: 3rem;
+    text-overflow: ellipsis;
+    text-indent: 4rem;
+    text-align: right;
+    text-rendering: geometricPrecision;
+    text-size-adjust: 69px;
+    text-decoration-color: aliceblue;
+}
+/* line-height, latter-spacing and word-spacing */
+p{
+    line-height: 1.4;
+    letter-spacing: 0.1rem;
+    word-spacing: 0.2rem;
+}
+
+/* font-size, font-family, and font-style*/
+
+p{
+    font-size: large;
+    font-style: oblique;
+    font-family:monospace
+}
+
+/* working with hyperlinks */
+
+a{
+    color: red;
+    text-decoration: none;
+    cursor: pointer;
+}
+a:visited{
+    color: aqua;
+    text-decoration: line-through;
+}
+a:hover, a:focus{
+    color: hsl(0, 100%, 50%, 0.3);
+}
+a:active{
+    color: yellow;
+}
+

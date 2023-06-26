@@ -30,11 +30,20 @@ h2{
     padding-bottom: 0px;
 }
 
+ul{
+    padding-left: 0px;
+}
+
 ul li{
     list-style-type: none;
     border-top: 1px solid #333;
     margin: 0px;
     padding: 0px;
+}
+
+ul li:last-child{
+    padding-bottom: 0px;
+    margin-bottom: 0px;
 }
 
 ul li a{

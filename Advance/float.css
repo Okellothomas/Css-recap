@@ -1,0 +1,40 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    background-color: rgb(225, 226, 226);
+}
+
+.left{
+    height: 30vh;
+    width: 30vh;
+    padding: 2vh;
+    background-color: aqua;
+    border: 3px solid green;
+    float: left;
+    margin-left: 7px;
+}
+
+.right{
+    height: 40vh;
+    width: 40vh;
+    padding: 3vh;
+    background-color: green;
+    border: 3px solid red;
+    float: right;
+    margin-right: 10px;
+}
+.clear{
+    clear: both;
+}
+.sectionleft{
+    background-color: rgb(180, 61, 61);
+    border: 3px solid black;
+    color: rgb(107, 18, 18);
+    display: flow-root;
+}
+.sectionright{
+    background-color: white;
+    border: 3px solid yellow;
+    overflow: auto;
+}

@@ -1,0 +1,45 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    background-color: rgb(213, 219, 224);
+}
+main{
+    background-color: green;
+    font-weight: 700;
+    font-family: monospace;
+    min-width: 70%;
+    max-width: 80%;
+}
+/* block display */
+main p{
+    background-color: gray;
+    padding: 2%;
+}
+/* inline display */
+.inline{
+    display: inline-block;
+    color: white;
+    background-color: red;
+    margin-top: 8px;
+    padding: 8% 3%;
+}
+
+/* working with the display */
+ul{
+    list-style-type: none;
+    padding: 0.5rem;
+    text-align: right;
+    background-color: black;
+}
+
+ul li{
+    display: inline-block;
+    list-style: none;
+}
+
+ul li a{
+text-decoration: none;
+color: white;
+background-color: black;
+}

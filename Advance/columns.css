@@ -1,0 +1,19 @@
+body{
+    background-color: #333;
+}
+.columns{
+    text-align: center;
+    column-count: 3;
+    color: white;
+    column-width: 250px;
+    column-rule: 2px solid white;
+}
+.columns ul{
+    list-style-type: none;
+    padding-left: 0;
+}
+
+.columns li a{
+    margin-top: 0%;
+    color: white;
+}

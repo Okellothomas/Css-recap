@@ -1,0 +1,44 @@
+.positions{
+    border: 4px dashed yellow;
+    padding: 20px;
+    margin: 2px;
+    height: 240vh;
+    position: relative;
+}
+.allpositions{
+    border: 3px solid #333;
+    margin: 5rem;
+    padding: 2rem;
+    height: auto;
+}
+.absolute{
+    height: 100px;
+    width: 100px;
+    position:absolute;
+    right: 100px;
+    bottom: 30px;
+    background-color: yellowgreen;
+}
+.relative{
+    position: relative;
+    height: 100px;
+    width: 100px;
+    bottom: 100px;
+    right: 100px;
+    background-color: aqua;
+
+}
+
+.fixed{
+    height: 200px;
+    width: 200px;
+    position: fixed;
+    background-color: green;
+}
+.sticky{
+    height: 300px;
+    width: 300px;
+    background-color: blue;
+    position: sticky;
+    top: 100px;
+}

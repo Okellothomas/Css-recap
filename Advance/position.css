@@ -42,3 +42,9 @@
     position: sticky;
     top: 100px;
 }
+img{
+    height: 30px;
+    width: 30px;
+    border: 2px solid green;
+    border-radius: 50%;
+}

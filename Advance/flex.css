@@ -1,11 +1,19 @@
-main{
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body{
+    font-family: "Roboto", sans-serif;
+    min-height: 100vh;
+    padding: 20px;
+}
+.container{
     max-width: 800px;
     min-height: 400px;
     margin-inline: auto;
     border: 1px solid #000;
-    display: flex;
 }
-
 .box{
     min-width: 100px;
     min-height: 100px;

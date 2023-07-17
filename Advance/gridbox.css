@@ -7,8 +7,36 @@
 body{
     font-family: monospace;
     min-height: 100vh;
+    display: grid;
+    grid-template-columns: repeat(9, 1fr);
+    grid-template-areas: 
+    "hd hd hd hd hd hd hd hd hd"
+    "sd sd mn mn mn mn mn mn mn"
+    "ft ft ft ft ft ft ft ft ft";
+    gap: 1rem;
+}
+.el{
+    background-color: bisque;
+    color: red;
+    display: grid;
+    place-content: center;
+}
+
+.header{
+    grid-area: hd;
+}
+
+.aside{
+    grid-area: sd;
+    background-color: blueviolet;
+}
+
+.footer{
+    grid-area: ft;
+    background-color: black;
 }
 .container{
+    grid-area: mn;
     display: grid;
     grid-template-columns: 200px 2fr 1fr;
     grid-template-columns: repeat(2, 1fr 2fr);
@@ -40,6 +68,7 @@ body{
     display: grid;
     align-items: center;
     justify-content: center;
+    place-content: center;
 }
 
 .box:nth-child(2){

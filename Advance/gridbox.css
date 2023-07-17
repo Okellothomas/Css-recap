@@ -17,6 +17,7 @@ body{
     column-gap: 2rem;
     row-gap: 1rem;
     gap: 1rem 1rem;
+    grid-auto-rows: minmax(150px, auto);
 }
 
 .box{

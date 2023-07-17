@@ -44,4 +44,5 @@ body{
     flex-shrink: 4;
     background-color: green;
     flex: 3 3 150px;
+    order: -1;
 }

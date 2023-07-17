@@ -18,3 +18,18 @@ img{
     width: 30px;
     z-index: 1;
 }
+
+ul li{
+    list-style-type: none;
+    padding-left: 0px;
+    display: flex;
+    font-size: 20px;
+    justify-content: space-between;
+}
+
+.footer{
+    background-color: yellowgreen;
+    color: red;
+    position: sticky;
+    bottom: 0;
+}

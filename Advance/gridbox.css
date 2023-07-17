@@ -8,9 +8,20 @@ body{
     font-family: monospace;
     min-height: 100vh;
 }
+.container{
+    display: grid;
+    grid-template-columns: 200px 2fr 1fr;
+    grid-template-columns: repeat(2, 1fr 2fr);
+    grid-template-columns: 2fr 2fr 1fr;
+    grid-template-rows: 100px;
+    column-gap: 2rem;
+    row-gap: 1rem;
+    gap: 1rem 1rem;
+}
 
 .box{
     background-color: #333;
     color: #fff;
     font-size: 2rem;
+    padding: 0.5rem;
 }

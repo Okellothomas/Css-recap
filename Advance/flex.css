@@ -14,10 +14,16 @@ body{
     margin-inline: auto;
     border: 1px solid #000;
     display: flex;
+    justify-content: space-evenly;
+    gap: 1rem;
+    align-content: space-evenly;
+    flex-direction: row;
+    flex-flow: row wrap;
+
 }
 .box{
     min-width: 100px;
-    min-height: 100px;
+    height: 100px;
     background-color: #000;
     color: #fff;
     font-size: 2rem;

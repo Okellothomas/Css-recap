@@ -1,0 +1,16 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: monospace;
+    min-height: 100vh;
+}
+
+.box{
+    background-color: #333;
+    color: #fff;
+    font-size: 2rem;
+}

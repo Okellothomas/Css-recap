@@ -32,10 +32,12 @@ img{
     border-radius: 50%;
 }
 .container{
+    display: none;
     background-color: rgb(207, 194, 117);
     background-image: url('images/white.jpg');
     background-repeat: no-repeat;
     background-size: cover;
+    background-position: top left;
 }
 .hereo{
     display: flex;

@@ -69,3 +69,16 @@ img{
     border-radius: 10px;
    
 }
+.clip{
+    background-color: aliceblue;
+    font-weight: 900;
+    font-size: 18rem;
+    text-align: center;
+    align-items: center;
+    background-image: url('images/obama.jpeg');
+    background-repeat: repeat;
+    background-size: cover;
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: rgba(0, 0, 0, 0.375);
+}

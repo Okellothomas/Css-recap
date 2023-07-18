@@ -4,7 +4,7 @@
     box-sizing: border-box;
 }
 
-body{
+/* body{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     min-height: 100vh;
     background-color: #333;
@@ -13,6 +13,10 @@ body{
     background-repeat: repeat-y, no-repeat;
     background-position: right, center;
 
+} */
+body{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    min-height: 100vh;
 }
 img{
     display: block;

@@ -31,3 +31,12 @@ img{
     border: 5px double gray;
     border-radius: 50%;
 }
+.hereo{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 30px;
+}
+.nowrap{
+    white-space: nowrap;
+}

@@ -84,7 +84,7 @@ footer{
 
 /* || XL */
 
-@media (min-width: 1024px) {
+@media (min-width: 1200px) {
     body {
         background-color: rebeccapurple;
         background-image: radial-gradient(whitesmoke, rebeccapurple);

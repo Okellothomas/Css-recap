@@ -18,7 +18,7 @@ body{
     flex-direction: column;
 }
 
-header,
+/* header,
 nav,
 main,
 footer{
@@ -26,4 +26,16 @@ footer{
     place-content: center;
     grid-template-columns: 100%;
     text-align: center;
+} */
+
+header,
+footer{
+    position: sticky;
+    background-color: #1e293b;
+    color: white;
+    text-align: center;
+}
+
+header{
+    top: 0;
 }

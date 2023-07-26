@@ -88,6 +88,9 @@ nav a:hover, nav a:focus{
 .card:target{
     border: 3px solid rebeccapurple;
 }
+.card img:not([alt]){
+    border: 6px solid yellow;
+}
 main{
     flex-grow: 1;
     display: flex;

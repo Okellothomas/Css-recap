@@ -104,6 +104,11 @@ footer{
     bottom: 0;
 }
 
+.card:last-child figcaption::after{
+    content: '&copy;';
+    display: block;
+}
+
 @media (min-width: 599px) and (orientation:portrait){
     main{
         justify-content: center;

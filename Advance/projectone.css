@@ -57,7 +57,16 @@ nav a:hover, nav a:focus{
     color: #f00;
     text-decoration: underline;
 }
-
+.card{
+    scroll-margin-top: 8rem;
+    width: min(100%, 400px);
+    background-color: aliceblue;
+    border-radius: 25px;
+    padding: 0.3rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
 main{
     flex-grow: 1;
     display: flex;

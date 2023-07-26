@@ -67,6 +67,21 @@ nav a:hover, nav a:focus{
     flex-direction: column;
     align-items: center;
 }
+.card figure{
+    display: flex;
+    flex-flow: column nowrap;
+}
+
+.card img{
+    border: 5px double #333;
+    border-radius: 50%;
+}
+.card figcaption{
+    font-weight: bolder;
+    font-size: 1rem;
+    margin: 1rem;
+    text-align: center;
+}
 main{
     flex-grow: 1;
     display: flex;

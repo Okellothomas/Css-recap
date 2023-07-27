@@ -21,7 +21,10 @@
     --UMBRA: 0 5px 5px -4px var(--PRIMARY-CONTAINER-COLOR);
     /* Borders */
     --BORDEER-RADIUS: 18px;
-    --BORDERS: 3px solid var(var(--PRIMARY-COLOR))
+    --BORDERS: 3px solid var(--PRIMARY-COLOR);
+    /* The Square */
+    --SQUARE-BG: whitesmoke;
+    --SQUARE-SIZE: max(300px, 30vw)
 }
 
 header{
@@ -53,4 +56,16 @@ footer{
     font-family: var(--FONT-FAMILY);
     font-size: var(--FONT-SIZE);
     font-weight: var(--FONTWEIGT);
+}
+/* Square */
+.square{
+    background-color: var(--SQUARE-BG);
+    width: var(--SQUARE-SIZE);
+    height:var(--SQUARE-SIZE);
+    border:var(--BORDERS);
+    border-radius:var(--BORDEER-RADIUS);
+    display: grid;
+    place-content: center;
+    font-size: var(--FONT-SIZE);
+    box-shadow: var(--UMBRA);
 }

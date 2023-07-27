@@ -24,9 +24,16 @@
     --BORDERS: 3px solid var(--PRIMARY-COLOR);
     /* The Square */
     --SQUARE-BG: whitesmoke;
-    --SQUARE-SIZE: max(300px, 30vw)
+    --SQUARE-SIZE: max(200px, 15vw)
 }
-
+/* Changing the background color */
+@media (prefers-color-scheme: dark){
+    :root{
+        --PRIMARY-COLOR: #000;
+        --ONPRIMARY-COLOR:rgb(121, 113, 113);
+        --SQUARE-BG: rgb(182, 20, 20);
+    }
+}
 header{
     background-color: var(--BACKGROUND-COLOR);
     position: sticky;
@@ -46,6 +53,10 @@ main{
     min-height: 100vh;
     text-align: center;
     align-items: center;
+    display: flex;
+    justify-content: space-evenly;
+    flex-flow: nowrap;
+    gap: 15px;
 }
 footer{
     background-color: var(--BACKGROUND-COLOR);
@@ -58,6 +69,10 @@ footer{
     font-weight: var(--FONTWEIGT);
 }
 /* Square */
+.square-one{
+    --SQUARE-BG: rebeccapurple;
+}
+
 .square{
     background-color: var(--SQUARE-BG);
     width: var(--SQUARE-SIZE);

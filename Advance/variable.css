@@ -1,0 +1,29 @@
+/* Universal resetting */
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+/* Variables */
+:root{
+    /* Colors */
+    --PRIMARY-COLOR: rgba(51, 19, 19, 0.733);
+    --ONPRIMARY-COLOR:  whitesmoke;
+    --PRIMARY-CONTAINER-COLOR: rgb(44, 51, 44);
+    --ONPRIMARY-CONTAINER-COLOR: white;
+    --BACKGROUND-COLOR:#333;
+    /* Fonts */
+    --FONT-FAMILY: monospace;
+    --FONT-SIZE:1.5rem;
+    --FONTWEIGT: 800;
+    /* shadows */
+    --UMBRA: 0 5px 5px -4px var(--PRIMARY-CONTAINER-COLOR);
+    /* Borders */
+    --BORDERS: 18px;
+    --BORDEER-RADIUS: 3px solid var(var(--PRIMARY-COLOR))
+}
+
+header{
+    
+}
